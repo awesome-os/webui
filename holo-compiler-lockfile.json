@@ -1,0 +1,111 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/webui",
+  "targets": [
+    "linux-arm64",
+    "linux-x64",
+    "macos-arm64",
+    "win64"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/webui/b8g_webui_sectium.h",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "1e9d6701524f31ce72c69e57392d0dfd3241f9bad4863c0f53dbde3199dcc68670183215a013ff04ce8cdf51977db5db4d68e1387b79c7310cdd8c7bad90e6c1",
+      "size": 2449,
+      "executable": false,
+      "blob": "v11/files/1e/1e9d6701524f31ce72c69e57392d0dfd3241f9bad4863c0f53dbde3199dcc68670183215a013ff04ce8cdf51977db5db4d68e1387b79c7310cdd8c7bad90e6c1",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/b8g_webui_sectium.h",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/webui/b8g_webui_sectium.lib",
+      "kind": "lib",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "9b9ebf09faa633d4f4017c5b1e01dd433db4751d988d3aaabf68da6f4d059f8a111fc7487cfc9a1a928bf3cd466d9af2dd6f882fc00e992d3d31df30b098dc6a",
+      "size": 2838,
+      "executable": false,
+      "blob": "v11/files/9b/9b9ebf09faa633d4f4017c5b1e01dd433db4751d988d3aaabf68da6f4d059f8a111fc7487cfc9a1a928bf3cd466d9af2dd6f882fc00e992d3d31df30b098dc6a",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/b8g_webui_sectium.lib",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/webui/libwebui-sectium-darwin-arm64.dylib",
+      "kind": "lib",
+      "version": "v0.1.0",
+      "target": "macos-arm64",
+      "sha512": "6c28583b9d01d7d1f349061206bdd6cdc214aa8a09d753ce2eb75cd3306ebe924b57a93f7193cb15aa173c09893712b1bf65fcfb7f1cb756e571ca2b39ecdff3",
+      "size": 50112,
+      "executable": false,
+      "blob": "v11/files/6c/6c28583b9d01d7d1f349061206bdd6cdc214aa8a09d753ce2eb75cd3306ebe924b57a93f7193cb15aa173c09893712b1bf65fcfb7f1cb756e571ca2b39ecdff3",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/libwebui-sectium-darwin-arm64.dylib",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/webui/libwebui-sectium-linux-arm64.so",
+      "kind": "lib",
+      "version": "v0.1.0",
+      "target": "linux-arm64",
+      "sha512": "8494b0cf8664c28e5927c6ace77b40fc5c224b43deeef97806a329883a670c243137dad1b74e0e7c7688d4ba8f5d3d4f18f38f37f17f9e5f5a9380ce89ea4aa5",
+      "size": 4008,
+      "executable": false,
+      "blob": "v11/files/84/8494b0cf8664c28e5927c6ace77b40fc5c224b43deeef97806a329883a670c243137dad1b74e0e7c7688d4ba8f5d3d4f18f38f37f17f9e5f5a9380ce89ea4aa5",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/libwebui-sectium-linux-arm64.so",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/webui/libwebui-sectium-linux-x64.so",
+      "kind": "lib",
+      "version": "v0.1.0",
+      "target": "linux-x64",
+      "sha512": "388a98dc0bf75d6d7f38d897a02089df08396afe7099e686f96a4945fde15267c4aac7d9ec482269a12549da3042146c876a202489b3cc9e1cfa3c2018857ccf",
+      "size": 3904,
+      "executable": false,
+      "blob": "v11/files/38/388a98dc0bf75d6d7f38d897a02089df08396afe7099e686f96a4945fde15267c4aac7d9ec482269a12549da3042146c876a202489b3cc9e1cfa3c2018857ccf",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/libwebui-sectium-linux-x64.so",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/webui/libwebui-sectium-windows-x64.dll",
+      "kind": "lib",
+      "version": "v0.1.0",
+      "target": "win64",
+      "sha512": "f3aa449b983be1ed4ef91695f4e590fe702da961790f309d131f818f8b3c1b7f92f64ead4b1cc5f76ad18779f36522098109ab2292e43f876132116e79bb91b5",
+      "size": 57856,
+      "executable": false,
+      "blob": "v11/files/f3/f3aa449b983be1ed4ef91695f4e590fe702da961790f309d131f818f8b3c1b7f92f64ead4b1cc5f76ad18779f36522098109ab2292e43f876132116e79bb91b5",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/libwebui-sectium-windows-x64.dll",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/webui/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "7d6c5588626836b860ccd2042ec62d2b12ca75c3512321bde32417ef5adde717e75d9573c82fa87591ad5735733ce6fdaf54440f2515704ebe40e70598009218",
+      "size": 481,
+      "executable": false,
+      "blob": "v11/files/7d/7d6c5588626836b860ccd2042ec62d2b12ca75c3512321bde32417ef5adde717e75d9573c82fa87591ad5735733ce6fdaf54440f2515704ebe40e70598009218",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/webui/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "be931f6fa7089bdbd91f57efc640c2ccf17022dd11839aa1f6ea799847dda4c578f00e5927ccfd67c2493ec70c7a01f8fe6fe511fb37fa905ac82953eec2c36b",
+      "size": 801,
+      "executable": false,
+      "blob": "v11/files/be/be931f6fa7089bdbd91f57efc640c2ccf17022dd11839aa1f6ea799847dda4c578f00e5927ccfd67c2493ec70c7a01f8fe6fe511fb37fa905ac82953eec2c36b",
+      "url": "https://github.com/awesome-os/webui/releases/download/v0.1.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
