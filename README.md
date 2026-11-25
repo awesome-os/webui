@@ -59,3 +59,13 @@ zig cc -std=c11 -Os -s -Wall -Wextra -Werror -Iinclude \
 ## License
 
 MIT License — see [`LICENSE`](LICENSE). Upstream WebUI copyright (c) Hassan Draga; `sectium_pipe` extensions copyright (c) awesome-os.
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/webui@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/webui?from=repository://github.com/awesome-os/webui@main"
+```
